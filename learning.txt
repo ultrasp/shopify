@@ -1,0 +1,12 @@
+1. Init store
+shopify theme init --clone-url=https://github.com/polidario/Elizabeth_Clean.git
+
+2. Link store
+shopify theme dev --store umidjon-dev.myshopify.com
+
+3. Build tailwind css
+npx tailwindcss -i ./src/tailwind.css -o ./assets/application.css
+
+
+store password
+piacle
